@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farm"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:src="@drawable/farmlogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:text="FarmBay"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/guestLogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:text="Continue as Guest" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googlebtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp"></com.google.android.gms.common.SignInButton>
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebookLogin"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/googlebtn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp" />
+
+
+</RelativeLayout>

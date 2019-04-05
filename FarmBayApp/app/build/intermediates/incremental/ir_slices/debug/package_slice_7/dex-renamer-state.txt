@@ -1,0 +1,4 @@
+#Tue May 01 20:56:38 PDT 2018
+base.0=C\:\\Users\\manas\\Documents\\ManishaStudies\\CMPE272\\Ranjan Project\\Project-Team-4\\FarmBayApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

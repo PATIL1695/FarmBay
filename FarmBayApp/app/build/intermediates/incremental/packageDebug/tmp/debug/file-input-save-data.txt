@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue May 01 20:56:39 PDT 2018
+1.base=C\:\\Users\\manas\\Documents\\ManishaStudies\\CMPE272\\Ranjan Project\\Project-Team-4\\FarmBayApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\manas\\Documents\\ManishaStudies\\CMPE272\\Ranjan Project\\Project-Team-4\\FarmBayApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+1.path=classes.dex

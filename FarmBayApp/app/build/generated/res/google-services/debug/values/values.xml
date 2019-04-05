@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">391124480088-riktk39ng2r6kfmvf3ho1630vqmkrfp1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://farmbayapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">391124480088</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaABneWJ8y3BZowaM1zJtzW1vnXEbY8Bo</string>
+    <string name="google_app_id" translatable="false">1:391124480088:android:84b2bd8d88cf4a76</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaABneWJ8y3BZowaM1zJtzW1vnXEbY8Bo</string>
+    <string name="google_storage_bucket" translatable="false">farmbayapp.appspot.com</string>
+    <string name="project_id" translatable="false">farmbayapp</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "391124480088",
+    "firebase_url": "https://farmbayapp.firebaseio.com",
+    "project_id": "farmbayapp",
+    "storage_bucket": "farmbayapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391124480088:android:84b2bd8d88cf4a76",
+        "android_client_info": {
+          "package_name": "com.farmbay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391124480088-vlm71fdsid9t8uvcibs02ngb089p20pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmbay",
+            "certificate_hash": "c8b2f11c5ac60a25c8641ccc4d0773b34f380889"
+          }
+        },
+        {
+          "client_id": "391124480088-riktk39ng2r6kfmvf3ho1630vqmkrfp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaABneWJ8y3BZowaM1zJtzW1vnXEbY8Bo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391124480088-riktk39ng2r6kfmvf3ho1630vqmkrfp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

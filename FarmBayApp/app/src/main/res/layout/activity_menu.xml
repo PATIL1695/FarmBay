@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/recommend"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Recommend Crops"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/recommend"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/bidcrop"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Bid Crop"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/bidcrops"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/viewmarket"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="View Market"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/market"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="About"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/about"/>
+
+    </LinearLayout>
+</LinearLayout>

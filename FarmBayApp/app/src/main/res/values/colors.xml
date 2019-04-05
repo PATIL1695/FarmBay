@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f4903</color>
+    <color name="colorPrimaryDark">#010010</color>
+    <color name="colorAccent">#FFFF</color>
+    <color name="colorComplimentry">#edf4c3</color>
+    <color name="colorTableBright">#c5d168</color>
+    <color name="colorTableDim">#e5e8ce</color>
+</resources>

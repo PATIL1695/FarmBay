@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:background="@color/colorComplimentry">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/crop"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="This is the right place to sell your crop.Get the competitive prices for your product.
+
+
+
+Please fill the following details to place your crop on market"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/colorComplimentry">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Crop"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/crop"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Crop (ex. Wheat, Almonds)"
+            android:inputType="text" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/colorComplimentry">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Quantity"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Quantity(Tonnes)"
+            android:inputType="number" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/colorComplimentry">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="City"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="City"
+            android:inputType="text" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/colorComplimentry">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="State"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="State"
+            android:inputType="text" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/colorComplimentry">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Min Bid"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/bid"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Min Bid $"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/colorComplimentry">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/createBid"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Place Crop for Sell"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
